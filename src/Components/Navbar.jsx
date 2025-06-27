@@ -2,10 +2,14 @@ import { Link } from 'react-router-dom';
 
 export default function Navbar() {
   return (
-    <nav>
-      <Link to="/login">login</Link>
-      <Link to="/info">info</Link>
-      <Link to="/profile">profile</Link>
-    </nav>
+    <div className="nav">
+      <nav className="navbar">
+        <div className="navbar-links">
+          <Link to="/login">Login</Link>
+          <Link to="/info">Info</Link>
+          <Link to="/profile">Profile</Link>
+        </div>
+      </nav>
+    </div>
   );
 }

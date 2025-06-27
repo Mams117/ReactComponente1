@@ -6,10 +6,11 @@ import ProfileDetails from './Components/ProfileDetails.jsx';
 import ProfileSettings from './Components/ProfileSettings.jsx';
 import Navbar from './Components/Navbar.jsx';
 
-// import Cardss from './Components/Cardss.jsx';
+import Cardss from './Components/Cardss.jsx';
 function App() {
   return (
     <>
+      {/* <Cardss /> */}
       <BrowserRouter>
         <Navbar />
         <Routes>
